@@ -1,0 +1,5 @@
+::ffff:127.0.0.1 - - [19/Jun/2020:04:35:31 +0000] "GET /register.html HTTP/1.1" 200 1193 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+::ffff:127.0.0.1 - - [19/Jun/2020:04:35:31 +0000] "GET /css/register.css HTTP/1.1" 200 879 "http://127.0.0.1:3000/register.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+::ffff:127.0.0.1 - - [19/Jun/2020:04:35:31 +0000] "GET /js/register.js HTTP/1.1" 200 1267 "http://127.0.0.1:3000/register.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+::ffff:127.0.0.1 - - [19/Jun/2020:04:35:31 +0000] "GET /js/jquery-3.1.1.js HTTP/1.1" 200 267624 "http://127.0.0.1:3000/register.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+::ffff:127.0.0.1 - - [19/Jun/2020:04:39:58 +0000] "GET /api/user/test HTTP/1.1" 200 223 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
