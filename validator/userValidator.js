@@ -3,13 +3,13 @@ const userSchema = {
     properties: {
         username: {
             type: "string",
-            pattern: '^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+$',
+            pattern: '^[a-zA-Z0-9]+([-_.][a-zA-Z0-9]+)*@[a-zA-Z0-9]+([-_.][a-zA-Z0-9]+)*\\.[a-z]{2,}$',
             maxLength: 255,
             minLength: 3
         },
         password: {
             type: "string",
-            pattern: '^[A-Za-z0-9]{6,20}$',
+            pattern: '(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).{8,20}',
             maxLength: 20,
             minLength: 6
         },
